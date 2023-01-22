@@ -8,15 +8,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>30 Days of JS challenge LeaderBoard</h1>
-    <input type="text" id="firstName" placeholder="First Name" />
-    <input type="text" id="lastName" placeholder="Last Name" />
-    <input type="text" id="country" placeholder="Country" />
-    <input type="text" id="score" placeholder="Player Score" />
-    <button id="addPlayer">Add Player</button>
+    <div class="main">
+      <div class="header">
+        <h1>Player LeaderBoard</h1>
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+        <input type="text" id="country" placeholder="Country" />
+        <input type="text" id="score" placeholder="Player Score" />
+        <button id="addPlayer">Add Player</button>
+      </div>
 
-    <div id="container">
-      
+      <div id="container">
+        <div id="innerDiv"></div>
+      </div>
     </div>
 
     <script src="script.js"></script>
